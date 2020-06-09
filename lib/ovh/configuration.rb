@@ -5,7 +5,7 @@ module Ovh
     attr_accessor :faraday
   
     def initialize
-      self.api_host             =   "https://eu.api.ovh.com"
+      self.api_host             =   "https://ca.api.ovh.com"
       self.api_version          =   1.0
       
       self.application_key      =   nil
